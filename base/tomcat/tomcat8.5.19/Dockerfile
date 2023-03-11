@@ -1,4 +1,4 @@
-FROM tomcat:8.5.19
+FROM tomcat:9.0-jdk8-corretto-al2
 
 LABEL maintainer="phithon <root@leavesongs.com>"
 
