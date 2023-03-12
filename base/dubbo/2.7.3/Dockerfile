@@ -8,7 +8,7 @@ RUN set -ex \
     && cd /usr/src \
     && mvn clean package
 
-FROM openjdk:8-jre
+FROM openjdk:21-ea-13-jdk-oraclelinux8
 
 COPY --from=builder /usr/src/target/dubbo-sample-1.0-SNAPSHOT.jar /dubbo-sample-1.0-SNAPSHOT.jar
 COPY docker-entrypoint.sh /docker-entrypoint.sh
