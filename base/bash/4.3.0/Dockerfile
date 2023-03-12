@@ -1,5 +1,4 @@
-FROM debian:jessie
-
+FROM debian:bullseye
 LABEL maintainer="phithon <root@leavesongs.com>"
 
 RUN apt-get update \
