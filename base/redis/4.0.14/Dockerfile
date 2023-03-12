@@ -1,3 +1,3 @@
-FROM redis:4.0.14
+FROM redis:7.0.9
 
 LABEL maintainer="phithon <root@leavesongs.com>"
