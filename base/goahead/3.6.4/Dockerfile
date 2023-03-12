@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:11.6
 
 LABEL maintainer="phithon <root@leavesongs.com>"
 
