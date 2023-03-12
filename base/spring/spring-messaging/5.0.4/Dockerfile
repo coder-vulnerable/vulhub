@@ -5,7 +5,7 @@ COPY . /usr/src
 RUN cd /usr/src; \
     mvn package
 
-FROM openjdk:8-jre
+FROM openjdk:21-ea-13-jdk-oraclelinux8
 
 LABEL maintainer="root <root@leavesongs.com>"
 
