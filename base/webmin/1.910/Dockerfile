@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:bookworm
 
 LABEL maintainer="phithon <root@leavesongs.com>"
 
