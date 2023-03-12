@@ -5,7 +5,7 @@ COPY ./ /usr/src
 RUN cd /usr/src; \
     mvn -U clean package -Dmaven.test.skip=true -Dmaven.artifact.threads=10
 
-FROM tomcat:8.5-jdk17-corretto
+FROM tomcat:8-jdk8-corretto
 
 LABEL maintainer="phithon <root@leavesongs.com>"
 
