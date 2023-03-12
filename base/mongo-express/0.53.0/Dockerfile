@@ -1,4 +1,4 @@
-FROM node:12
+FROM node:19-alpine3.16
 
 LABEL maintainer="phithon <root@leavesongs.com>"
 
