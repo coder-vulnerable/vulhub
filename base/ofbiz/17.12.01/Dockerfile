@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk
+FROM openjdk:21-ea-11-jdk-slim
 
 LABEL maintainer="phith0n <root@leavesongs.com>"
 
