@@ -1,5 +1,4 @@
-FROM php:7.4-apache
-
+FROM php:8.2.4RC1-zts-bullseye
 LABEL MAINTAINER="phithon <root@leavesongs.com>"
 
 RUN set -ex \
