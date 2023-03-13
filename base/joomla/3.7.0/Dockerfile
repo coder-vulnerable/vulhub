@@ -1,4 +1,4 @@
-FROM php:8.0-apache
+FROM php:fpm-bullseye
 
 LABEL maintainer="phithon <root@leavesongs.com>"
 
