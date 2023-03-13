@@ -1,4 +1,4 @@
-FROM centos:centos7.9.2009
+FROM centos:centos8.4.2105
 
 LABEL maintainer="phithon <root@leavesongs.com>"
 
