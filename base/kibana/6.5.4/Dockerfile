@@ -1,3 +1,3 @@
-FROM kibana:kibana:8.6.1
+FROM kibana:kibana:6.8.23
 
 LABEL maintainer="phithon <root@leavesongs.com>"
