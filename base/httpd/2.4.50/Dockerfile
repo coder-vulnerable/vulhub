@@ -1,3 +1,3 @@
-FROM httpd:2.4.55-bullseye
+FROM httpd:alpine3.17
 
 LABEL maintainer="phithon <root@leavesongs.com>"
